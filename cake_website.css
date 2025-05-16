@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #87ceeb;
+}
+
+header {
+	background-color: #4682b4;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.featured-cake {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.featured-cake img {
+	width: 50;
+	height: auto;
+	border-radius: 10px;
+}
+
+.cake-gallery {
+	margin-op: 40px;
+}
+
+.cake-gallery img{
+	width: 30;
+	height: auto;
+	margin: 10px;
+	border-radius: 10px;
+}
