@@ -12,6 +12,43 @@ header {
 	text-align: center;
 }
 
+nav ul {
+        list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #f7f7f7;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	color: #333;
+}
+
+button {
+	background-color: #4CAF50;
+	colr: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radious: 5px;
+	curser: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
 .featured-cake {
 	text-align: center;
 	margin-top: 20px;
@@ -32,4 +69,11 @@ header {
 	height: auto;
 	margin: 10px;
 	border-radius: 10px;
+}
+
+footr {
+	background-color: #f0f0f0;
+	padding: 10px;
+	text-align: center;
+	clear: both;
 }
